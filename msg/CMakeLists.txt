@@ -121,6 +121,7 @@ set(msg_files
 	optical_flow.msg
 	orbit_status.msg
 	parameter_update.msg
+	pasta_information.msg
 	ping.msg
 	pps_capture.msg
 	position_controller_landing_status.msg
