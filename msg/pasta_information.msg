@@ -1,3 +1,9 @@
+# Message with information for a dish of pasta
+
+# The topic pub/sub flow would be as follows:
+# Customer -> 'pasta_order' -> Waiter
+# Waiter -> 'pasta_cook' -> Chef
+
 uint64 timestamp          # time since system start (microseconds)
 
 uint16 customer_table_id  # customer’s table ID to know where to serve
